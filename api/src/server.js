@@ -5,7 +5,7 @@ const morgan = require("morgan");
 const router = require("./routes/index");
 require("dotenv").config();
 
-const PORT = process.env.PGPORT || 3002;
+const PORT = process.env.PORT || 3002;
 
 server.use(express.json());
 server.use(morgan("dev"));
