@@ -1,0 +1,40 @@
+.divSearch{
+    margin-top: 2em;
+}
+.input{
+    text-align: center;
+    background-color: #9fd198;
+    width: 250px;
+    border: none;
+    font-size: 2em;
+    padding: 5px;
+    /* border-radius: 15px 0px 0px 15px; */
+    outline: none;
+}
+.btnSearch{
+    font-size: 2em;
+    padding: 5px;
+    border: none;
+    text-align: center;
+    background-color: #f1eb1f;
+    border-radius: 0px 15px 15px 0px;
+
+}
+.btnSearch:hover{
+    background-color: #614a25;
+    color: #f1f2f3;
+    cursor: pointer;
+}
+.btnAzar:hover{
+    background-color: #614a25;
+    color: #f1f2f3;
+    cursor: pointer;
+}
+.btnAzar{
+    font-size: 2em;
+    padding: 5px;
+    border: none;
+    text-align: center;
+    background-color: #f1eb1f;
+    border-radius: 15px 0px 0px 15px; 
+}

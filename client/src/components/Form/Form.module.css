@@ -1,0 +1,53 @@
+/* body{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("./image/r-m.png"); 
+    background-repeat: no-repeat;
+} */
+.divForm{
+    /* background-image: url('../../image/Total_Rickall.webp'); */
+    background-color: rgba(100, 237, 191, 0.719);
+    display: flex;
+    flex-direction: column;
+    justify-items: auto;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px orange;
+    padding: 20px;
+  
+}
+.divForm input{
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin: 50px 10px 10px 10px;
+}
+
+.divForm label{
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin: 50px 10px 10px 10px;
+}
+.btnSubmit{
+    background-color: rgba(172, 255, 47, 0.63);
+    font-size: 1.7rem;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    color: rgb(131, 17, 121);
+}
+.btnSubmit:hover{
+    box-shadow: 0px 0px 20px orangered;
+}
+
+.divForm img{
+    display: block;
+    margin: auto;
+    margin-top: -50px;
+    width: 75%;
+}

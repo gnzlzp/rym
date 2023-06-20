@@ -1,0 +1,19 @@
+.divNav{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 50%;
+}
+.link{
+    font-size: 1.8em;
+    text-decoration: none;
+    /* color: #12b0c9; */
+    color: #fbfe74;
+    font-weight: bold;
+}
+.link:hover{
+    color: rgba(110, 221, 211, 1);
+    /* color: #022a3d; */
+    text-shadow: 0px 0px 15px #12b0c9;
+    /* text-shadow: 0px 0px 15px ; */
+}

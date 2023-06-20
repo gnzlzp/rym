@@ -1,0 +1,19 @@
+.divCard{
+    background-color: #f2ec20;
+    width: 300px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px black;
+    color: #118a44
+}
+.divCard:hover{
+    box-shadow: 0px 0px 20px #10aec7;
+}
+.btnTrash{
+    font-size: 2em;
+    color: #118a44;
+    background-color: rgba(41,133,67,0.3);
+    border-radius: 10px;
+    vertical-align: middle;
+    /* rgb(10, 134, 67) */
+}
